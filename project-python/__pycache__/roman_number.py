@@ -7,7 +7,6 @@ def to_roman_numeral(x:int)->str:
         while x >= key:
             roman_numeral += rom_num[key]
             x -= key
-            print(key, roman_numeral)
     return roman_numeral
 
 
